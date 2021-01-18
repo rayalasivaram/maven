@@ -1,0 +1,10 @@
+pipeline
+  agent any
+    stage{
+        stage ('Git clone'){
+        steps{
+        echo 'clone code from git hub'
+        }
+        }
+        }
+        
